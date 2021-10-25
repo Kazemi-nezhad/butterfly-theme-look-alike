@@ -1,5 +1,37 @@
+:root {
+  --my-blue: #4bb2df;
+}
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+a {
+  text-decoration: none !important;
+  color: #000 !important;
+}
+body {
+  min-height: 110vh;
+}
+/***************************/
+/**header**/
+header {
+  position: fixed;
+  width: 100%;
+  padding: 20px 0;
+  box-shadow: 0 0 7px 3px #efefef;
+}
+#menu_holder > div {
+  margin: 0 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+#menu_holder > div.active {
+  color: var(--my-blue);
+}
+#menu_holder > div a:hover {
+  color: var(--my-blue) !important;
+}
+#menu_bars {
+  font-size: 18px;
 }

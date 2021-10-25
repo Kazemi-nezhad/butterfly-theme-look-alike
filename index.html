@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="font/font-awesome/css/all.min.css" />
     <link rel="stylesheet" href="style/bootstrap.min.css" />
     <link rel="stylesheet" href="style/style.css" />
     <title>Mh Kazemi-nezhad</title>
@@ -11,15 +12,28 @@
   <body>
     <header>
       <div class="container">
-        <div class="row">
-          <div class="d-flex justify-content-between">
-            <div id="logo">1</div>
-            <nav class="d-flex">
-              <div>1</div>
-              <div>2</div>
-              <div>3</div>
-            </nav>
+        <div class="d-flex justify-content-between">
+          <div id="logo_container">
+            <a href="">
+              <img id="logo" src="images/logo.png" alt="logo" />
+            </a>
           </div>
+          <nav class="d-flex align-items-center">
+            <div id="menu_holder" class="d-none d-lg-flex">
+              <div class="active">HOME</div>
+              <div><a href="">ABOUT</a></div>
+              <div><a href="">SERVICES</a></div>
+              <div><a href="">PORTFOLIO</a></div>
+              <div><a href="">TEAM</a></div>
+              <div>
+                <a href="">DROP DOWN</a><i class="fa fa-chevron-down ml-1"></i>
+              </div>
+              <div><a href="">CONTACT</a></div>
+            </div>
+            <div id="menu_bars" class="d-grid d-lg-none">
+              <i class="fa fa-bars"></i>
+            </div>
+          </nav>
         </div>
       </div>
     </header>
