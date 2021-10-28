@@ -162,7 +162,7 @@ section#about{
 /***************************/
 /**PORTFOLIO**/
 #portfolio{
-  padding: 50px 0;
+  padding: 50px 0 0 0;
 }
 #tab_holder{
   display: flex;
@@ -215,6 +215,31 @@ section#about{
   color:#fff;
   text-align: center;
   font-size: 16px;
+}
+/***************************/
+/**TEAM**/
+#team{
+  padding: 50px 0 70px 0;
+  background-color: #f3fbfe;
+}
+.team_member{
+  border-radius: 10px;
+  box-shadow: 0 0 10px 3px #ccc;
+  overflow: hidden;
+}
+.team_member_img img{
+  width: 100%;
+}
+.team_member_dtl{
+  padding: 20px 25px;
+  background-color: #fff;
+}
+.team_member_name{
+  font-weight: 700;
+}
+.team_member_job{
+  font-size: 12px;
+  color: #aaa;
 }
 /***************************/
 /**media**/
