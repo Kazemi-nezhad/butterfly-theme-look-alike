@@ -17,6 +17,9 @@ body {
 .special_btn{
   padding: 10px 25px;
 }
+.section_ttl_holder{
+  text-align: center;
+}
 /**************/
 /**header**/
 header {
@@ -55,7 +58,7 @@ section#home{
 /************/
 /**about**/
 section#about{
-  padding: 50px 0 70px 0;
+  padding: 50px 0 0 0;
 }
 #about_img{
   display: grid;
@@ -119,6 +122,29 @@ section#about{
 }
 #clients_holder img{
   width: 100%;
+}
+/***************************/
+/**SERVICES**/
+#services{
+  padding: 50px 0;
+  background-color: #f3fbfe;
+}
+.service_item{
+  position: relative;
+  padding: 25px 15px 25px 70px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 3px #eee;
+  font-size: 15px;
+  overflow: hidden;
+}
+.service_item_icon{
+  position: absolute;
+  top: 35%;
+  left: -20px;
+}
+.service_item_icon i::before{
+  font-size: 60px;
 }
 /***************************/
 /**media**/
