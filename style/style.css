@@ -93,7 +93,20 @@ section#about{
   font-size: 14px;
 }
 #about_achievements{
+  position: relative;
   padding: 70px 0;
+  background: url('../images/counts-bg.jpg') center no-repeat fixed;
+  background-size: cover;
+}
+#about_achievements::before{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  opacity: 0.8;
 }
 .achievement_count{
   color: var(--my-blue);
@@ -145,6 +158,63 @@ section#about{
 }
 .service_item_icon i::before{
   font-size: 60px;
+}
+/***************************/
+/**PORTFOLIO**/
+#portfolio{
+  padding: 50px 0;
+}
+#tab_holder{
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+  font-weight: 600;
+}
+#tab_holder>div.active{
+  color: var(--my-blue);
+}
+.portfolio_items img{
+  width: 100%;
+}
+#carousel_holder{
+  position: relative;
+  padding: 70px 0;
+  background: url("../images/cta-bg.jpg") center no-repeat;
+  background-size: cover;
+}
+#carousel_holder::before{
+  position:absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #021f2c;
+  opacity: 0.8;
+}
+.profile{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  text-align: center;
+}
+.prof_img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.prof_img img{
+  width: 100%;
+}
+.prof_job{
+  font-size: 12px;
+}
+.profile_desc{
+  color:#fff;
+  text-align: center;
+  font-size: 16px;
 }
 /***************************/
 /**media**/
