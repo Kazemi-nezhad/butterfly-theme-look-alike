@@ -15,7 +15,7 @@ body {
   min-height: 110vh;
 }
 .special_btn{
-  padding: 10px 25px;
+  padding: 9px 25px;
 }
 .section_ttl_holder{
   text-align: center;
@@ -287,7 +287,7 @@ section#about{
   position: absolute;
   top: 0;
   right: 0;
-  z-index: 5;
+  z-index: 4;
 }
 /***************************/
 /**footer**/
