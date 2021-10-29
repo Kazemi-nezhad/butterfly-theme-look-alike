@@ -242,6 +242,30 @@ section#about{
   color: #aaa;
 }
 /***************************/
+/**GALLERY**/
+#gallery,#contact{
+  padding: 50px 0;
+}
+.gallery_img img{
+  width: 100%;
+}
+/***************************/
+/**CONTACT**/
+#map_container iframe{
+  width: 100%;
+  max-height: 300px;
+}
+#contact_form input,#contact_form textarea{
+  width: 100%;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+#contact_form textarea{
+  max-height: 150px;
+}
+/***************************/
 /**media**/
 @media (max-width: 992px) {
   /**Home**/
